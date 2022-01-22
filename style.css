@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+header {
+    height: 300px;
+    background-color: aqua;
+}
+main {
+    max-width: 1450px;
+    background-color: black;
+    margin: auto;
+}
+footer {
+    background-color: blueviolet;
+}
+.p1{
+    display: inline-flex;
+    padding: 30px;
+}
+.p2{
+    
+        display: inline-flex;
+        padding: 30px;
+   
+}
+.caixa{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 1450px;
+    height: 50px;
+    margin: 177px 207px; 
+
+}
