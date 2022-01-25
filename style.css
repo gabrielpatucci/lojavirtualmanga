@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -8,9 +10,10 @@ body{
     background-repeat: no-repeat;
     background-color: rgb(59, 59, 59);
     background-size: cover;
+
 }
 header{
-
+    font-family: 'Noto Serif', serif;
 }
 .menu{
     color: white;
@@ -31,7 +34,7 @@ header{
 main {
     height: 100%;
     max-width: 950px;
-    background-color: rgba(37, 22, 37, 0.6);
+    background-color: rgba(0, 0, 0 , 0.6);
     margin: auto;
 }
 .lista{
@@ -41,7 +44,7 @@ main {
     text-decoration: none;
     display: flex;
 
-    font-size: 30px;
+    font-size: 20px;
     color: white;
 }
 .lista:hover{
@@ -65,7 +68,7 @@ main {
     text-decoration: none;
     display: flex;
     padding: 15px;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
 }
 .Lsec:hover{
@@ -79,10 +82,10 @@ img{
 .n{
     padding: 15px;
 }
-button{
+.btn{
     border-radius: 5px;
     width: 150px;
-    background-color: black;
+    background-color: rgb(51, 51, 51);
     text-decoration: none;
 }
 footer{
@@ -92,5 +95,30 @@ footer{
     padding: 12px;
     bottom: 0;
 }
-
+.h{
+    color: purple;
+}
+.texto{
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+    text-align: center;
+    background-color: rebeccapurple;
+    max-width: 1000px;
+    padding: 5px;
+    border-radius: 5px;
+}
+@media(max-width: 1000px) {
+    main{
+        width: 459px;
+    }
+    button{
+        font-display: none;
+    }
+    header{
+        width:450px;
+    }
+    .texto{
+        width: 450px;
+    }
+}
 
