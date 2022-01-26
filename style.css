@@ -13,6 +13,7 @@ body{
 
 }
 header{
+    margin: auto;
     font-family: 'Noto Serif', serif;
 }
 .menu{
@@ -111,14 +112,12 @@ footer{
     main{
         width: 459px;
     }
-    button{
-        font-display: none;
-    }
     header{
-        width:450px;
+        margin: auto;
+        width:425px;
     }
     .texto{
-        width: 450px;
+        width: 425px;
     }
 }
 
