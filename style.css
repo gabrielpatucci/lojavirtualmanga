@@ -13,10 +13,13 @@ body{
 
 }
 header{
+    background-color: rgb(40, 26, 53);
     margin: auto;
     font-family: 'Noto Serif', serif;
 }
 .menu{
+    margin: auto;
+    max-width: 950px;
     color: white;
     display: flex;
     justify-content: space-between;
